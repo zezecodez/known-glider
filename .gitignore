@@ -1,0 +1,4 @@
+*.txt
+deleteMe/
+*.log
+.git
