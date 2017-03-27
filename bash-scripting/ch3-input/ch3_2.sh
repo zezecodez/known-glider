@@ -2,8 +2,6 @@
 
 # 2. Add to the previous script to add in some data coming from command line arguments and maybe some of the other system variables.
 
-# RESOURCE http://unix.stackexchange.com/questions/179650/sh-test-two-conditions-gets-missing
-
 echo "Would you like to leave a review for our ch3_1 file?"
 read -p "If so please enter your first name: " firstname
 read -p "enter your last name: " lastname
