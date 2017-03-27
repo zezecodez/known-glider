@@ -4,5 +4,3 @@
 
 tomorrow=$(date -r `expr $(date +%s) + 86400`)
 echo "tomorrows date: " $tomorrow
-
-# https://blog.sleeplessbeastie.eu/2011/12/15/how-to-find-yesterdays-or-tomorrows-date-using-shell/

@@ -8,5 +8,3 @@ RANDOM=$$;
 lines=$(cat $WORDFILE  | wc -l);
 rnum=$((RANDOM*RANDOM%$lines+1));
 sed -n "$rnum p" $WORDFILE;
-
-# RESOURCE: sed = stream editor http://www.grymoire.com/Unix/Sed.html#uh-15
